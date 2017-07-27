@@ -1,6 +1,6 @@
 <?php
 
-namespace aliuly\mtp;
+namespace mtp;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandExecutor;
