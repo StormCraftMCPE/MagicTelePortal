@@ -37,9 +37,9 @@ class Main extends PluginBase implements CommandExecutor,Listener {
 		$defaults = [
 			"version" => $this->getDescription()->getVersion(),
 			"max-dist" => 8,
-			"border" => Block::NETHER_BRICKS,
+			"border" => Block::STONE,
 			"center" => Block::STILL_WATER,
-			"corner" => Block::NETHER_BRICKS_STAIRS,
+			"corner" => Block::STONE,
 		];
 		$cfg = (new Config($this->getDataFolder()."config.yml",
 										  Config::YAML,$defaults))->getAll();
