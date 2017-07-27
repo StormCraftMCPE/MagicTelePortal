@@ -1,5 +1,7 @@
 <?php
+
 namespace aliuly\mtp;
+
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandExecutor;
 use pocketmine\command\CommandSender;
@@ -15,9 +17,11 @@ use pocketmine\event\player\PlayerMoveEvent;
 use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\block\BlockPlaceEvent;
+
 use aliuly\mtp\common\mc;
 use aliuly\mtp\common\MPMU;
 use aliuly\mtp\common\PluginCallbackTask;
+
 class Main extends PluginBase implements CommandExecutor,Listener {
 	protected $portals;
 	protected $max_dist;
